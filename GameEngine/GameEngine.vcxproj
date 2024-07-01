@@ -152,6 +152,11 @@
     <ClInclude Include="Component.h" />
     <ClInclude Include="Engine.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="GameMath\Matrix3.h" />
+    <ClInclude Include="GameMath\Matrix4.h" />
+    <ClInclude Include="GameMath\Vector2.h" />
+    <ClInclude Include="GameMath\Vector3.h" />
+    <ClInclude Include="GameMath\Vector4.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="TransformComponent.h" />
@@ -160,6 +165,11 @@
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="GameMath\Matrix3.cpp" />
+    <ClCompile Include="GameMath\Matrix4.cpp" />
+    <ClCompile Include="GameMath\Vector2.cpp" />
+    <ClCompile Include="GameMath\Vector3.cpp" />
+    <ClCompile Include="GameMath\Vector4.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="TransformComponent.cpp" />

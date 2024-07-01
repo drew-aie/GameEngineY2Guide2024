@@ -62,7 +62,6 @@ namespace GameMath
         /// <param name="rhs"></param>
         /// <returns></returns>
         static GameMath::Vector3 crossProduct(GameMath::Vector3 lhs, GameMath::Vector3 rhs);
-
     };
 }
 
