@@ -1,5 +1,6 @@
 #include "ShapeComponent.h"
 #include "Engine/TransformComponent.h"
+#include "Engine/Entity.h"
 #include <raylib.h>
 
 void GameGraphics::ShapeComponent::draw()
