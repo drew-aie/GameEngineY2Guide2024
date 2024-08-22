@@ -1,5 +1,5 @@
-#include "TransformComponent.h"
 #include "Entity.h"
+#include "TransformComponent.h"
 
 GameEngine::Entity::Entity()
 {
@@ -59,4 +59,10 @@ void GameEngine::Entity::end()
 	}
 	m_started = false;
 	onEnd();
+}
+
+void GameEngine::Entity::addComponent(Component* component)
+{
+	component->setOwner(this);
+	m_components.add(component);
 }

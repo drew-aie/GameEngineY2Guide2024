@@ -73,4 +73,11 @@ namespace GameEngine
 		return (T*)component;
 	}
 
+	template<typename T>
+	inline T* Entity::addComponent(T* component)
+	{
+		component->setOwner(this);
+		m_components.add(component);
+		return component;
+	}
 }
